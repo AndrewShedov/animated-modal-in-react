@@ -1,0 +1,74 @@
+.modal_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.069);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  animation: fadeInModalWrap 0.5s forwards;
+  opacity: 0;
+}
+
+.modal_wrap_fade_out {
+  animation: fadeOut 0.5s forwards;
+  opacity: 1;
+}
+
+@keyframes fadeInModalWrap {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.modal {
+  width: 100%;
+  max-width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border-radius: 5px;
+  position: relative;
+  animation: fadeInModal 0.8s forwards;
+  background-color: rgb(255, 255, 255);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.modal_fade_out {
+  animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeInModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.close_button_wrap {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border: 2px solid rgb(90, 90, 90);
+  cursor: pointer;
+  border-radius: 3px;
+}
