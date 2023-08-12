@@ -1,6 +1,6 @@
 import styles from "./modal.module.css";
 import { useState, useEffect, useRef } from "react";
-import CloseIcon from "../svg/CloseIcon/CloseIcon";
+import CloseIcon from "../svg/CloseIcon/closeicon";
 import Horse from "../svg/Horse/Horse";
 export default function Modal({buttonShowModal, setButtonShowModal}) {
   const [showModal, setShowModal] = useState(false);
