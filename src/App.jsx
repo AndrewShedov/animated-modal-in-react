@@ -12,8 +12,8 @@ function App() {
       >
         Open modal
       </button>  
-      <Modal showModalButton={showModal} setShowModalButton={setShowModal} />
+      <Modal buttonShowModal={showModal} setButtonShowModal={setShowModal} />
     </div>
-  );
+  );   
 }
 export default App;
