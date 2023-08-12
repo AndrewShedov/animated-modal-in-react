@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./horse.module.css";
+import styles from "./Horse.module.css";
 export default function Horse() {
   return (
     <div className={styles.horse}>
