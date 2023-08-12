@@ -13,7 +13,7 @@
   opacity: 0;
 }
 
-.modal_wrap_fade_out {
+.modal_wrap__fade_out {
   animation: fadeOut 0.5s forwards;
   opacity: 1;
 }
@@ -51,7 +51,7 @@
   margin-left: 15px;
 }
 
-.modal_fade_out {
+.modal__fade_out {
   animation: fadeOut 0.5s forwards;
 }
 

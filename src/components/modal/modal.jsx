@@ -31,7 +31,7 @@ export default function Modal({buttonShowModal, setButtonShowModal}) {
         <div
           className={
             fadeOut
-              ? `${styles.modal_wrap} ${styles.modal_wrap_fade_out}`
+              ? `${styles.modal_wrap} ${styles.modal_wrap__fade_out}`
               : `${styles.modal_wrap}`
           }
           onAnimationEnd={(e) => {
@@ -43,8 +43,8 @@ export default function Modal({buttonShowModal, setButtonShowModal}) {
           <div
             ref={modalRef}
             className={
-              fadeOut
-                ? `${styles.modal} ${styles.modal_fade_out}`
+              fadeOut  
+                ? `${styles.modal} ${styles.modal__fade_out}`
                 : `${styles.modal}`
             }
             onAnimationEnd={(e) => {
