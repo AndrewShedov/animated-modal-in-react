@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./closeIcon.module.css";
+import styles from "./CloseIcon.module.css";
 export default function CloseIcon() {
   return (
     <div className={styles.close_icon}>
