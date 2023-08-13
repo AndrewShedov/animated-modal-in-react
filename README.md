@@ -3,5 +3,5 @@ In this component, onAnimationEnd is used to create animation, just like in this
 [Homepage](https://shedov.top/animated-modal-in-react-using-onanimationend/)\
 For start:\
 npm install\
-npm run dev\
+npm run dev
 
