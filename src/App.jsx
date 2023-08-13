@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import Modal from "./components/modal";
 function App() {
   const [showModal, setShowModal] = useState(false);
