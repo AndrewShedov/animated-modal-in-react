@@ -1,6 +1,6 @@
 import styles from "./modal.module.css";
 import {useState, useEffect, useRef} from "react";
-import IconClose from "../SVG/Icon/Close";
+import Close from "../SVG/Icon/Close";
 import Horse from "../SVG/Drawing/Horse";
 export default function Modal({buttonShowModal, setButtonShowModal}) {
   const [showModal, setShowModal] = useState(false);
@@ -63,7 +63,7 @@ export default function Modal({buttonShowModal, setButtonShowModal}) {
               }}
               className={styles.close_button_wrap}
             >
-              <IconClose/>
+              <Close/>
             </div>
           </div>
         </div>
