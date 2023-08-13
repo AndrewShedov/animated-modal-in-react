@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Close.module.css";
-export default function CloseIcon() {
+export default function IconClose() {
   return (
     <div className={styles.close_icon}>
     <svg viewBox="0 0 1024 1024">
