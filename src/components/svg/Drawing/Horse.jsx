@@ -3,7 +3,7 @@ import styles from "./Horse.module.css";
 export default function Horse() {
   return (
     <div className={styles.horse}>
- <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+ <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	  viewBox="0 0 97.352 97.353"
 	 xmlSpace="preserve">
 <g>
