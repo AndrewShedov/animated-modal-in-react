@@ -11,7 +11,7 @@ export default function Modal({buttonShowModal, setButtonShowModal}) {
   }, [buttonShowModal]);
   const [fadeOut, setFadeOut] = useState(false);
   const modalRef = useRef();
-  // Click outside the modal window
+  // Click tracking outside the modal
   useEffect(() => {
     if (modalRef.current) {
       const handler = (e) => {
