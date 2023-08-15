@@ -1,8 +1,8 @@
 import styles from "./modal.module.css";
-import {useState, useEffect, useRef} from "react";
+import { useState, useEffect, useRef } from "react";
 import Close from "../svg/Icon/Close";
 import Horse from "../svg/Drawing/Horse";
-export default function Modal({buttonShowModal, setButtonShowModal}) {
+export default function Modal({ buttonShowModal, setButtonShowModal }) {
   const [showModal, setShowModal] = useState(false);
   useEffect(() => {
     if (buttonShowModal) {
@@ -10,8 +10,8 @@ export default function Modal({buttonShowModal, setButtonShowModal}) {
     }
   }, [buttonShowModal]);
   const [fadeOut, setFadeOut] = useState(false);
-  const modalRef = useRef();
   // Click tracking outside the modal
+  const modalRef = useRef();
   useEffect(() => {
     if (modalRef.current) {
       const handler = (e) => {
@@ -43,7 +43,7 @@ export default function Modal({buttonShowModal, setButtonShowModal}) {
           <div
             ref={modalRef}
             className={
-              fadeOut  
+              fadeOut
                 ? `${styles.modal} ${styles.modal__fade_out}`
                 : `${styles.modal}`
             }
@@ -56,14 +56,14 @@ export default function Modal({buttonShowModal, setButtonShowModal}) {
             }}
           >
             <Horse />
-            <div  
+            <div
               onClick={() => {
                 setFadeOut(true);
                 setButtonShowModal(false);
               }}
               className={styles.close_button_wrap}
             >
-              <Close/>
+              <Close />
             </div>
           </div>
         </div>
