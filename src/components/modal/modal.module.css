@@ -8,6 +8,8 @@
   height: 100%;
   animation: fadeInModalWrap 0.5s forwards;
   opacity: 0;
+  left: 0;
+  top: 0;
 }
 
 .modal_wrap__fade_out {
