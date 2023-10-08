@@ -61,7 +61,7 @@ export default function Modal({ buttonShowModal, setButtonShowModal }) {
                 setFadeOut(true);
                 setButtonShowModal(false);
               }}
-              className={styles.close_button_wrap}
+              className={styles.close_button}
             >
               <Close />
             </div>
