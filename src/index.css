@@ -40,7 +40,7 @@ ul {
   justify-content: center;
 }
 
-.button {
+button {
   border: 0;
   box-shadow: rgb(0 0 0 / 18%) 0.2px 0.2px 4px;
   color: #000;
@@ -57,7 +57,7 @@ ul {
 }
 
 @media (min-width: 1000px) {
-  .button:hover {
+  button:hover {
     transition: all 250ms ease;
    
     box-shadow: rgb(0 0 0 / 18%) 0.3px 0.3px 6px;

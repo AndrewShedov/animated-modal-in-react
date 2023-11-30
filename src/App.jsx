@@ -8,7 +8,6 @@ function App() {
         onClick={() => {
           setShowModal(true);
         }}
-        className={"button"}
       >
         Open modal
       </button>  
