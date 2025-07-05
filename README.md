@@ -4,6 +4,6 @@ In this component, when creating an animation, onAnimationEnd is applied, as in 
 #### npm install
 #### npm run dev
 #### [Homepage](https://shedov.top/animated-modal-in-react-using-onanimationend/)
-#### [LIVE](https://animated-modal-in-react-andrewshedov.vercel.app/)
+#### [LIVE](https://animated-modal-in-react.vercel.app/)
 
 
