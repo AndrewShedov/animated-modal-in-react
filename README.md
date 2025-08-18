@@ -5,6 +5,7 @@
 # Animated modal in React using - onAnimationEnd
 In this component, when creating an animation, onAnimationEnd is applied, as in this [case](https://github.com/AndrewShedov/Animated-dropdown-menu-in-react). onAnimationEnd is the handler for the animationEnd event, which is called when the element's CSS animation ends. This component does not use third party libraries for animation and when the modal window is closed, it is not in the DOM.
 <br />
+<br />
 <a href="https://animated-modal-in-react.vercel.app/" target="_blank">
 <img src="https://raw.githubusercontent.com/AndrewShedov/animated-modal-in-react/refs/heads/main/public/screenshot.webp" width="700" />
 </a>
