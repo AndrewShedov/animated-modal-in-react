@@ -14,8 +14,8 @@ npm i
 npm run dev
 ```
 
-#### [Homepage](https://shedov.top/animated-modal-in-react-using-onanimationend/)
 #### [LIVE](https://animated-modal-in-react.vercel.app/)
+#### [Homepage](https://shedov.top/animated-modal-in-react-using-onanimationend/)
 
 [SHEDOV.TOP](https://shedov.top/) | [CRYSTAL](https://crysty.ru/AndrewShedov) | [Discord](https://discord.gg/ENB7RbxVZE) | [Telegram](https://t.me/ShedovChannel) | [X](https://x.com/AndrewShedov) | [VK](https://vk.com/shedovclub) | [VK Video](https://vkvideo.ru/@shedovclub) | [YouTube](https://www.youtube.com/@AndrewShedov)
 
