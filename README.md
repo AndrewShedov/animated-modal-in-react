@@ -10,7 +10,7 @@ In this component, when creating an animation, onAnimationEnd is applied, as in 
 <img src="https://raw.githubusercontent.com/AndrewShedov/animated-modal-in-react/refs/heads/main/public/screenshot.webp" width="700" />
 </a>
 <br />
-#### For start:
+#### How to Run:
 
 ```bash
 npm i
